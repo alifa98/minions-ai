@@ -9,7 +9,7 @@
 > **⚠️ UNDER DEVELOPMENT** - This project is currently in early development phase. The features and capabilities described below represent our vision and roadmap, not current functionality.
 
 **Current Status**: Early planning and architecture design  
-**Expected MVP**: Q2 2024  
+**Expected MVP**: Q4 2025
 **Looking for**: Contributors, feedback, and early adopters
 
 ## Vision & Overview
@@ -144,7 +144,7 @@ print(f"Source: {response.source_url}")
   - [ ] Basic retrieval mechanisms
   - [ ] Response generation with source attribution
 
-### Phase 2: MVP Development *(Q2 2024)*
+### Phase 2: MVP Development *(Q4 2025)*
 - [ ] **Basic Agent System**
   - [ ] Single documentation agent implementation
   - [ ] Simple query processing and response generation
@@ -157,7 +157,7 @@ print(f"Source: {response.source_url}")
   - [ ] Configuration management
   - [ ] Basic help and documentation
 
-### Phase 3: Specialized Agents *(Q3 2024)*
+### Phase 3: Specialized Agents *(Q1 2026)*
 - [ ] **API Documentation Agent**
   - [ ] OpenAPI/Swagger specification parsing
   - [ ] REST API endpoint understanding
@@ -176,7 +176,7 @@ print(f"Source: {response.source_url}")
   - [ ] Migration guide processing
   - [ ] Component and concept relationship mapping
 
-### Phase 4: Advanced Features *(Q4 2024)*
+### Phase 4: Advanced Features *(Q2 2026)*
 - [ ] **Enhanced Query Types**
   - [ ] Code generation assistance
   - [ ] Debugging and troubleshooting help
@@ -189,7 +189,7 @@ print(f"Source: {response.source_url}")
   - [ ] Query history and bookmarks
   - [ ] Team collaboration features
 
-### Phase 5: Integrations *(Q1 2025)*
+### Phase 5: Integrations *(Q2 2024)*
 - [ ] **IDE Integrations**
   - [ ] VS Code extension
   - [ ] JetBrains plugin
@@ -202,7 +202,7 @@ print(f"Source: {response.source_url}")
   - [ ] Analytics and usage insights
   - [ ] Custom agent training
 
-### Phase 6: Enterprise & Scale *(Q2 2025)*
+### Phase 6: Enterprise & Scale *(Q3 2026)*
 - [ ] **Enterprise Features**
   - [ ] Team collaboration and sharing
   - [ ] Private documentation hosting
