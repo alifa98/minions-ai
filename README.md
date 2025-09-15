@@ -1,3 +1,5 @@
+![Minions AI Banner](assets/banner.svg)
+
 # Minions AI 🤖📚
 
 **An intelligent agentic AI system that helps developers navigate, understand, and work with documentation using Retrieval-Augmented Generation (RAG)**
