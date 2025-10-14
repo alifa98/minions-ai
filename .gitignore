@@ -14,7 +14,6 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
 lib64/
 parts/
 sdist/
@@ -209,12 +208,7 @@ __marimo__/
 # PyPi package build
 *.tar.gz
 *.whl
-build/
-dist/
-*.egg-info/
-.eggs/
-pip-wheel-metadata/
-__pypackages__/
-*.egg
 
 .idea
+.vscode
+output
