@@ -1,5 +1,7 @@
 # Minions AI
 
+![Minions AI Logo](./assets/minions-ai.png)
+
 This is a tool to collect data and export them with agentic AI.
 
 Just tell what you need and get the structured data in the `outuput` directory.
