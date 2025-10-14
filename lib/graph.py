@@ -1,12 +1,12 @@
 from langgraph.graph import END, StateGraph
 
 from lib.state import DatasetCompilationState
-from nodes.debator import debate_agent_node
-from nodes.extractor import extraction_agent_node
-from nodes.filter import filter_agent_node
-from nodes.orchestrator import orchestrator_node, orchestrator_router
-from nodes.search import search_agent_node
-from nodes.validator import validation_agent_node
+from lib.nodes.debator import debate_agent_node
+from lib.nodes.extractor import extraction_agent_node
+from lib.nodes.filter import filter_agent_node
+from lib.nodes.orchestrator import orchestrator_node, orchestrator_router
+from lib.nodes.search import search_agent_node
+from lib.nodes.validator import validation_agent_node
 
 
 def get_state_graph(checkpointer):
