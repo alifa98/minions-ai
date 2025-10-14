@@ -4,6 +4,7 @@
 from functools import lru_cache
 
 from openai import AsyncOpenAI
+from pydantic import Extra
 from pydantic_settings import BaseSettings
 from redis import asyncio as aioredis
 
@@ -23,6 +24,7 @@ class Settings(BaseSettings):
 
     class Config:
         env_file = ".env"
+        extra = "ignore"
 
 
 @lru_cache
@@ -33,7 +35,7 @@ def get_settings() -> Settings:
 @lru_cache
 def get_openai_client() -> AsyncOpenAI:
     settings = get_settings()
-    return AsyncOpenAI(api_key=settings.open_api_key)
+    return AsyncOpenAI(api_key=settings.openai_api_key)
 
 
 def get_redis() -> aioredis.Redis:
